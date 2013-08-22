@@ -1,0 +1,43 @@
+/**
+======================================================================
+	@author: Nanderson Castro;
+	@email: nandokstro@gmail.com;
+	@author_url: www.cssexperts.net | www.nandokstronet.com;
+	@description: CSS referente ao sistema de agendas e serviços
+	criado para organizar os trabalhos e lembrar de compromissos;
+======================================================================
+**/
+/*Reset*/
+* { margin: 0; padding: 0; font-size: 16px; text-align: center; font-family: Verdana; }
+
+/*Conteudo*/
+.conteudo { width: 80%; margin: 45px auto 0; }
+
+/*Menu*/
+.conteudo .menu { width: 100%; height: 25px; background: linear-gradient(#f98, #f60); border-radius: 10px; box-shadow: 0px 2px 5px #666; }
+.conteudo .menu ul { margin: 0; padding: 0; list-style: none; }
+.conteudo .menu li { float: left; }
+.conteudo .menu a { padding: 1.5px 10px; float: left; color: #fff; text-shadow: 1px 1px 1px #000; text-decoration: none; font-family: Oswald;
+                    transition: color 0.3s ease-out; font-size: 14px; }
+.conteudo .menu a:hover { color: #000; opacity: 1.0; filter: alpha(opacity=100); text-shadow: 1px 1px 1px #fff; }
+/*Data*/
+.conteudo .data { width: 70%; margin: 0 auto;  }
+.conteudo .data h1 { width: 100%; color: #000; padding: 0 0 0 5px; text-align: left; border-bottom: 1px solid #f60;  margin-top: 5px; font-family: Oswald;  }
+.conteudo .data h1 strong { color: #f60;  }
+.conteudo .data ul { margin: 0; padding: 0; list-style: none; padding: 15px 0; }
+.conteudo .data li { margin: 15px; border-bottom: 1px dotted #f60; padding-bottom: 5px; position: relative; } 
+.conteudo .data h2, .conteudo .data p, .conteudo .data span {  text-align: left; }
+.conteudo .data h2 { font-weight: bold; color: #f50; }
+.conteudo .data p { font-size: 14px; line-height: 25px; }
+/*Opcaoes*/
+.conteudo .acoes { margin: 5px; float: right; }
+.conteudo .acoes a { margin: 0 3px; }
+.conteudo .acoes a img { border: 0; }
+/*Form*/
+.conteudo .data input[type=text], .conteudo .data textarea { width: 250px; border: 1px solid #f60; border-radius: 10px;
+                                                             padding: 5px; text-align: left; transition: box-shadow 0.6s ease-out; }
+.conteudo .data input[type=text]:focus, .conteudo .data textarea:focus { box-shadow: 0px 0px 6px #f90; opacity: 1.0; }
+.conteudo .data input[type=submit] { border-radius: 10px; background: -webkit-linear-gradient(#d6d6d6, #CCC);
+                                     background: -moz-linear-gradient(#999 20%, #666); border:none; padding: 3px;
+                                     color: #fff; text-shadow: 1px 1px 1px #999; cursor: pointer; }
+.conteudo .data input[type=submit]:hover{ box-shadow: 0px 0px 3px #f60; }
